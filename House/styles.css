@@ -1,0 +1,167 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.scene {
+    position: relative;
+    height: 100%;
+    background-color: #87ceeb;
+    /* Голубое небо */
+}
+
+.sun {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #ffdb00;
+    /* Желтый цвет солнца */
+    border-radius: 50%;
+    box-shadow: 0 0 60px 20px #ffdb00;
+    /* Свечение солнца */
+}
+
+.grass {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #32cd32;
+    /* Зеленый цвет травы */
+}
+
+.tree {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+
+.trunk {
+    position: absolute;
+    width: 20px;
+    height: 100px;
+    background-color: #8b4513;
+    /* Коричневый цвет ствола */
+}
+
+.leaves {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: #228b22;
+    /* Зеленый цвет листвы */
+    border-radius: 50%;
+    top: -140px;
+    left: 7%;
+    transform: translateX(-50%);
+}
+
+.house {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    /* Увеличенная ширина дома */
+    height: 400px;
+    /* Увеличенная высота дома */
+    background-color: #ffd700;
+    /* Желтый цвет для дома */
+    border-radius: 20px;
+    /* Скругленные углы */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Тень */
+}
+
+.roof {
+    position: absolute;
+    z-index: 2;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 120px solid transparent;
+    /* Изменение размеров крыши */
+    border-right: 120px solid transparent;
+    /* Изменение размеров крыши */
+    border-bottom: 60px solid #8b4513;
+    /* Коричневый цвет крыши */
+}
+
+.chimney {
+    position: absolute;
+    z-index: 1;
+    top: -70px;
+    left: 70%;
+    transform: translateX(-50%);
+    width: 40px;
+    /* Ширина дымохода */
+    height: 70px;
+    /* Высота дымохода */
+    background-color: #696969;
+    /* Серый цвет дымохода */
+}
+
+.window {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    /* Ширина окна */
+    height: 80px;
+    /* Высота окна */
+    background-color: #b3d9ff;
+    /* Голубой цвет окна */
+    border-radius: 50%;
+    /* Округленные углы */
+}
+
+.door {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    /* Ширина двери */
+    height: 200px;
+    /* Высота двери */
+    background-color: #8b4513;
+    /* Коричневый цвет двери */
+}
+
+.flowerpot {
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    transform: translateX(-50%);
+    width: 80px;
+    /* Ширина горшка для цветов */
+    height: 60px;
+    /* Высота горшка для цветов */
+    background-color: #964b00;
+    /* Коричневый цвет горшка для цветов */
+}
+
+.flowers {
+    position: absolute;
+    bottom: 60px;
+    left: 25%;
+    transform: translateX(-50%);
+    width: 20px;
+    /* Ширина цветов */
+    height: 40px;
+    /* Высота цветов */
+    background-color: #ff1493;
+    /* Розовый цвет цветов */
+    border-radius: 50%;
+    /* Округленные углы */
+    transform: rotate(45deg);
+    /* Поворот цветов */
+}
